@@ -1,0 +1,52 @@
+/*FORMATAÇÃO GERAL*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*FORMATAÇÃO TOPO*/
+
+header {
+    background-color: #3B8686;
+    padding: 30px 10vw 30px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 60px 0 0;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+header nav ul li a.atual {
+    background-color: rgba(255,255,255,0.2);
+    padding: 5px 15px 5px 15px;
+    border-radius: 17px;
+}
+header nav .atual:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+/*FORMATAÇÃO BANNER*/
+
+section.banner {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)) , url(../src/banner.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 20vw 10vw 8vw 10vw;
+}
+section.banner h2 {
+    color: white;
+    font-size: 3rem;
+    width: 35%;
+    background-color: rgba(59, 134, 134, 50%);
+}
