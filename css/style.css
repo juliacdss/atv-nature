@@ -63,15 +63,16 @@ section.etapas ul li {
 }
 section.etapas ul li span {
     color: #3B8686;
-    font-size: 3rem;
+    font-size: 4rem;
+    padding: 0 0 20px 0;
 }
 section.etapas ul li h3 {
     font-size: x-large;
     font-weight: bold;
-    padding: 10px 0 13px 0;
+    padding: 10px 0 40px 0;
 }
 section.etapas ul li p {
-    padding: 0 0 13px 0;
+    padding: 0 0 20px 0;
     color: #747474;
 }
 section.etapas ul li button {
