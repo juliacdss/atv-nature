@@ -50,3 +50,134 @@ section.banner h2 {
     width: 35%;
     background-color: rgba(59, 134, 134, 50%);
 }
+
+/*FORMATAÇÃO SECTION ETAPAS*/
+
+section.etapas ul {
+    display: flex;
+    text-align: center;
+    margin: 7vw 10vw 8vw 10vw;
+}
+section.etapas ul li {
+    padding: 0 3vw 0 3vw;
+}
+section.etapas ul li span {
+    color: #3B8686;
+    font-size: 3rem;
+}
+section.etapas ul li h3 {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 0 13px 0;
+}
+section.etapas ul li p {
+    padding: 0 0 13px 0;
+    color: #747474;
+}
+section.etapas ul li button {
+    background-color: #3B8686;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*FORMATAÇÃO SECTION NUMEROS*/
+
+section.numeros {
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)) , url(../src/numeros.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    margin: 5vw 0 0 0;
+}
+section.numeros ul {
+    display: flex;
+    text-align: center;
+    margin: 0 20vw 7vw 12vw;
+}
+section.numeros ul li{
+    text-align: center;
+    padding: 5vw 3vw 5vw 3vw;
+}
+section.numeros ul li span {
+    color: white;
+    font-size: 3rem;
+    padding: 0 0 0 1vw;
+}
+section.numeros ul li p {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/*FORMATAÇÃO SECTION POSSIBILIDADES*/
+
+section.possibilidades div.atividades {
+    display: flex;
+    margin: 0 5vw 0 5vw;
+}
+section.possibilidades div.texto {
+    margin: 0 0 0 9vw;
+}
+section.possibilidades div.texto h3{
+    font-size: xx-large;
+    color: #0B486B;
+    padding: 0 0 1.7vw 0;
+}
+section.possibilidades div.texto p {
+    color: #747474;
+    padding: 0 0 1.8vw 0;
+}
+section.possibilidades div.texto button {
+    background-color: #0B486B;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+section.possibilidades div.button {
+    padding: 0 10vw 0 0;
+}
+section.possibilidades img {
+    padding: 0 0 3vw 10vw;
+}
+
+/*FORMATAÇÃO FOOTER*/
+
+footer div.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3B8686;
+    padding: 2vw 0 2vw 0;
+}
+footer div.icones {
+    color: white;
+    margin: 0 0 0 4vw;
+}
+footer div.icones ul {
+    display: flex;
+    color: white;
+}
+footer div.icones ul li span {
+    font-size: 2rem;
+    padding: 0 5px 1.3vw 5px;
+}
+footer div.contato {
+    color: white;
+}
+footer div.contato span{
+    font-weight: bold;
+}
+footer div.contato ul li {
+    padding: 0 0 10px 0;
+} 
+footer div.links {
+    color: white;
+    margin: 0 10vw 0 10vw;
+}
+footer div.links ul li {
+    padding: 8px 0 8px 0;
+}
